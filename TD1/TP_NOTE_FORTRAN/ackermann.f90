@@ -30,5 +30,3 @@ CONTAINS
 
 
 END PROGRAM td_ackermann
-
-!Programme implémentant la fonction d'Ackermann - Maxence Joulin (CHPS-2017/2018)
