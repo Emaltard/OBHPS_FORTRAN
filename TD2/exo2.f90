@@ -1,0 +1,9 @@
+PROGRAM exo2
+  IMPLICIT NONE
+
+  INTEGER :: i,j
+  INTEGER, DIMENSION(5,5)::T1
+
+  T1=RESHAPE((/((i,i=1,5),(1,i=1,5),j=1,2),(i,i=1,5)/), SHAPE(T1))
+  PRINT *, T1
+END PROGRAM exo2
